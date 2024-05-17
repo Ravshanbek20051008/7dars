@@ -3,7 +3,7 @@
   padding-bottom: 26px;
   font-family: "Poppins";
   position: fixed;
-  background-color: wheat;
+  background-color: white;
   top: 0;
   width: 100%;
   z-index: 8;
@@ -227,7 +227,7 @@
   display: flex;
   width: 1920px;
   height: 868px;
-  background-color: #303db8;
+  background-color: #3646d9;
   color: #ffffff;
 }
 .mein__container h3 {
@@ -302,6 +302,61 @@
 
 .img4 {
   margin-top: -490px;
+}
+
+.our-misson .photo-misson img:first-child {
+  margin-top: -125px;
+  margin-left: -390px;
+}
+.our-misson .photo-misson .opani-rasmi {
+  margin-top: -910px;
+  margin-left: 300px;
+}
+
+.our-misson__container {
+  display: flex;
+  align-items: center;
+}
+.our-misson__container .title-misson h3 {
+  width: 127px;
+  height: 23px;
+  font-family: Poppins;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 23px;
+  color: #3ea83b;
+  margin-bottom: 28px;
+}
+.our-misson__container .title-misson h1 {
+  width: 539px;
+  height: 23px;
+  font-family: Poppins;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 23px;
+  margin-bottom: 58px;
+  color: #363739;
+}
+
+.title-misson {
+  margin-top: 60px;
+  margin-left: -50px;
+}
+.title-misson .the-sow {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.title-misson p {
+  margin-bottom: 30px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  width: 566px;
+}
+.title-misson img {
+  margin-top: -25px;
 }
 
 * {

@@ -1,0 +1,60 @@
+.our-misson {
+  .photo-misson {
+    img {
+      &:first-child {
+        margin-top: -125px;
+        margin-left: -390px;
+      }
+    }
+    .opani-rasmi {
+      margin-top: -910px;
+      margin-left: 300px;
+    }
+  }
+}
+.our-misson__container {
+  display: flex;
+  align-items: center;
+  .title-misson {
+    h3 {
+      width: 127px;
+      height: 23px;
+      font-family: Poppins;
+      font-size: 19px;
+      font-weight: 700;
+      line-height: 23px;
+      color: #3ea83b;
+      margin-bottom: 28px;
+    }
+    h1 {
+      width: 539px;
+      height: 23px;
+      font-family: Poppins;
+      font-size: 46px;
+      font-weight: 700;
+      line-height: 23px;
+      margin-bottom: 58px;
+      color: #363739;
+    }
+  }
+}
+.title-misson {
+  margin-top: 60px;
+  margin-left: -50px;
+  .the-sow {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  p {
+    margin-bottom: 30px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    width: 566px;
+  }
+  img {
+    margin-top: -25px;
+  }
+}
