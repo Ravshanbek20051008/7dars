@@ -1,0 +1,53 @@
+.hero {
+  .bosh_joy {
+    // padding-top: 250px;
+  }
+  img {
+    margin-left: -300px;
+  }
+
+  height: 762px;
+  background-image: url("../img/image\ 4\ \(1\).png");
+  background-repeat: no-repeat;
+  margin-top: 94px;
+  background-position: right;
+  margin-right: 70px;
+}
+.info {
+  font-family: "Oswald";
+  margin-top: -550px;
+  text-transform: uppercase;
+  h3 {
+    width: 389px;
+    height: 149px;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 54px;
+  }
+  h1 {
+    margin-top: -20px;
+    width: 506px;
+    height: 174px;
+    font-size: 122px;
+    font-weight: 700;
+    line-height: 69px;
+    color: #3ea83b;
+  }
+}
+.info {
+  p {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 31px;
+    width: 391px;
+    height: 92px;
+    font-family: "Oswald";
+    margin-top: -70px;
+    margin-bottom: 20px;
+    color: #8c8c8c;
+  }
+  a {
+    @extend %buttonTemplate;
+    text-decoration: none;
+  }
+}
