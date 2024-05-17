@@ -46,13 +46,45 @@
     }
   }
 }
-.title-about {
-  span {
-    margin-bottom: 20px;
+.badge {
+  background-color: #3646d9;
+  width: 121px;
+  height: 148px;
+  border-radius: 25px;
+  text-align: center;
+  font-family: Oswald;
+  color: aliceblue;
+  margin-left: 500px;
+  margin-top: -230px;
+  h3 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 38px;
+    width: 80px;
+    height: 88px;
+    margin-left: 20px;
+    margin-top: 19px;
   }
+  h4 {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 46px;
+    width: 113px;
+    height: 44px;
+    margin-top: -20px;
+    margin-left: 10px;
+  }
+}
+.title-about {
   a {
     @extend %buttonTemplate;
     text-decoration: none;
+  }
+  span {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
   }
 }
 .dack {
@@ -63,5 +95,41 @@
     font-size: 19px;
     font-weight: 700;
     line-height: 23px;
+    margin-left: 21px;
+  }
+  .greeng {
+    display: flex;
+    h4 {
+      width: 277px;
+      height: 56px;
+    }
+    p {
+      width: 351px;
+    }
+  }
+  .outuser {
+    display: flex;
+    h4 {
+      width: 191px;
+      height: 56px;
+    }
+    p {
+      width: 401px;
+    }
+  }
+}
+.dack {
+  p {
+    color: #363739;
+    height: 90px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-left: 21px;
+  }
+  img {
+    width: 132px;
+    height: 132px;
   }
 }
