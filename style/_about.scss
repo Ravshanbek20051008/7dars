@@ -1,0 +1,67 @@
+.about {
+  padding-top: 135px;
+  padding-bottom: 95px;
+
+  .vidyo {
+    position: relative;
+
+    .badge {
+      position: absolute;
+    }
+    .green-card {
+      position: absolute;
+      width: 354px;
+      height: 436px;
+      background-color: #2ae85f;
+      top: -15px;
+      z-index: -2;
+      left: -15px;
+    }
+  }
+}
+.saw {
+  display: flex;
+
+  .title-about {
+    margin-left: 113px;
+    margin-top: 10px;
+    h4 {
+      width: 142px;
+      height: 23px;
+      color: #3ea83b;
+      font-family: Poppins;
+      font-size: 19px;
+      font-weight: 700;
+      line-height: 23px;
+    }
+    h1 {
+      font-family: Poppins;
+      font-size: 46px;
+      font-weight: 700;
+      line-height: 23px;
+      width: 429px;
+      height: 23px;
+      margin-top: 28px;
+      margin-bottom: 37px;
+    }
+  }
+}
+.title-about {
+  span {
+    margin-bottom: 20px;
+  }
+  a {
+    @extend %buttonTemplate;
+    text-decoration: none;
+  }
+}
+.dack {
+  margin-top: 109px;
+  display: flex;
+  h4 {
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 23px;
+  }
+}

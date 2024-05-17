@@ -90,6 +90,71 @@
   text-decoration: none;
 }
 
+.about {
+  padding-top: 135px;
+  padding-bottom: 95px;
+}
+.about .vidyo {
+  position: relative;
+}
+.about .vidyo .badge {
+  position: absolute;
+}
+.about .vidyo .green-card {
+  position: absolute;
+  width: 354px;
+  height: 436px;
+  background-color: #2ae85f;
+  top: -15px;
+  z-index: -2;
+  left: -15px;
+}
+
+.saw {
+  display: flex;
+}
+.saw .title-about {
+  margin-left: 113px;
+  margin-top: 10px;
+}
+.saw .title-about h4 {
+  width: 142px;
+  height: 23px;
+  color: #3ea83b;
+  font-family: Poppins;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 23px;
+}
+.saw .title-about h1 {
+  font-family: Poppins;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 23px;
+  width: 429px;
+  height: 23px;
+  margin-top: 28px;
+  margin-bottom: 37px;
+}
+
+.title-about span {
+  margin-bottom: 20px;
+}
+.title-about a {
+  text-decoration: none;
+}
+
+.dack {
+  margin-top: 109px;
+  display: flex;
+}
+.dack h4 {
+  font-family: Poppins;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 23px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -102,7 +167,7 @@
   margin: 0 auto;
 }
 
-.header__container .nav-list li:last-child a, .info a {
+.header__container .nav-list li:last-child a, .info a, .title-about a {
   border: none;
   background-color: #3ea83b;
   padding: 15px 54px;
